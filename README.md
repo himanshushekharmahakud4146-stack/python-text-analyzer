@@ -25,3 +25,11 @@ Most frequent word: data
 ## Purpose
 This project is part of my Python learning journey to build
 strong fundamentals before moving to Data Science and AI.
+
+**Version 2 Improvements**
+-Stopwords filtering added
+-Top 5 frequent words implemented
+-Results exported to file
+-Cleaner text preprocessing
+
+Also update Example Output to show Top 5 words format.
