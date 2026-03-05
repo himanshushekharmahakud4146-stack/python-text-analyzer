@@ -1,3 +1,17 @@
+"""
+Text Analyzer Project
+
+Version 1:
+Basic text analyzer that counts total words, unique words, 
+and the most frequent word.
+
+Version 2:
+Improved version with stopword filtering, text cleaning,
+top frequent words, and export to file.
+
+This project is part of my Python learning journey.
+"""
+
 # ============================================
 # TEXT ANALYZER PROJECT
 # Version 1 – Basic Text Analyzer
