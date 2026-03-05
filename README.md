@@ -32,4 +32,6 @@ strong fundamentals before moving to Data Science and AI.
 -Results exported to file
 -Cleaner text preprocessing
 
-Also update Example Output to show Top 5 words format.
+**Project Versions**
+Version 1 – Basic text analyzer
+Version 2 – Stopwords filtering + Top 5 words + export results
