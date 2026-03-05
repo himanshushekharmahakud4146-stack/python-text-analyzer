@@ -26,12 +26,6 @@ Most frequent word: data
 This project is part of my Python learning journey to build
 strong fundamentals before moving to Data Science and AI.
 
-**Version 2 Improvements**
--Stopwords filtering added
--Top 5 frequent words implemented
--Results exported to file
--Cleaner text preprocessing
-
 **Project Versions**
 Version 1 – Basic text analyzer
 Version 2 – Stopwords filtering + Top 5 words + export results
