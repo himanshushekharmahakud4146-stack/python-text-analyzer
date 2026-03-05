@@ -1,31 +1,50 @@
+# ============================================
+# TEXT ANALYZER PROJECT
+# Version 1 – Basic Text Analyzer
+# ============================================
+
+# Features:
+# 1. Count total number of words
+# 2. Count number of unique words
+# 3. Find most frequent word
+
 class Solution:
-    def text_analyzer(self,text ):
+    def text_analyzer(self, text):
+
+        # convert text to lowercase for uniform comparison
         text = text.lower()
+
+        # split text into words
         words = text.split()
+
         counts = {}
 
-
+        # if input text is empty
         if not words:
-                return 0, 0, None
+            return 0, 0, None
 
-
+        # count frequency of each word
         for word in words:
-                counts[word] = counts.get(word,0)+1
+            counts[word] = counts.get(word, 0) + 1
 
+        # calculate statistics
         total_words = len(words)
         unique_words = len(counts)
-        most_frequent_words = max(counts,key = counts.get)
+        most_frequent_words = max(counts, key=counts.get)
 
-        return total_words,unique_words,most_frequent_words
+        return total_words, unique_words, most_frequent_words
+
+
+# ===== Run Version 1 =====
 
 text = input("Enter a text: ")
+
 s = Solution()
-total, unique, frequent =s.text_analyzer(text)
+total, unique, frequent = s.text_analyzer(text)
 
-print ('Total words: ',total)
-print ('Unique words: ',unique)
-print("Most frequent word: ",frequent)
-
+print("Total words:", total)
+print("Unique words:", unique)
+print("Most frequent word:", frequent)
 
 # ==============================
 # Text Analyzer - Version 2
